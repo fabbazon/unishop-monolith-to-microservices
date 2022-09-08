@@ -582,7 +582,7 @@
                 "Name": "UniShopPublicDnsName",
                 "Value": {
                     "Fn::Join": [
-                        "/",
+                        "",
                         [
                             "http:/",
                             {

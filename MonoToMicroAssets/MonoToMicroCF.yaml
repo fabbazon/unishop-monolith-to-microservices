@@ -525,7 +525,7 @@ Resources:
     Properties:
       Name: UniShopPublicDnsName
       Value: !Join 
-        - /
+        - ''
         - - 'http:/'
           - !GetAtt 
             - EC2Instance
