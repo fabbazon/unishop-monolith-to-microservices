@@ -593,7 +593,7 @@
                     "Fn::Join": [
                         "",
                         [
-                            "http:/",
+                            "http://",
                             {
                                 "Fn::GetAtt": [
                                     "EC2Instance",
